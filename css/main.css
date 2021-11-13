@@ -728,6 +728,15 @@ textarea, label {
   -o-transform: translate3d(0px, 0px, 0px) scale(0);
   transform: translate3d(0px, 0px, 0px) scale(0);
 }
+.works-item .works-inner ul {
+  font-size: 13px;
+  text-align: left;
+  list-style: none;
+}
+.works-item .works-inner ul li {
+  margin: 0;
+  line-height: 20px;
+}
 .works-item h4 {
   color: #FA6862;
   font-weight: 700;
@@ -775,7 +784,7 @@ textarea, label {
 
 .history-scroller {
   padding-top: 82px;
-  max-height: 377px;
+  max-height: 530px;
 }
 
 .history-item {
@@ -903,6 +912,8 @@ textarea, label {
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
+  max-width: 210px;
+  margin: 0 auto;
 }
 .service-hex:hover {
   z-index: 2;
@@ -1596,5 +1607,14 @@ textarea, label {
 
   .contact-form .input-field.name {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-hex h4 {
+    font-size: 28px;
+  }
+  .service-hex p {
+    font-size: 18px;
   }
 }
