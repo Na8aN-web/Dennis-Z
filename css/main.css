@@ -128,7 +128,9 @@ textarea, label {
 .clear:after {
   clear: both;
 }
-
+.listings li{
+  list-style-type: none;
+}
 .pt-table {
   display: table;
   width: 100%;
